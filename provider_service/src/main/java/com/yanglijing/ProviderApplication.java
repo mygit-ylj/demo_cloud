@@ -12,7 +12,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
  * @Date 2019/11/22
  * @Version V1.0
  **/
-@SpringBootApplication(exclude = DataSourceAutoConfiguration.class)
+@SpringBootApplication
 @EnableEurekaClient
 public class ProviderApplication {
     public static void main(String[] args) {
